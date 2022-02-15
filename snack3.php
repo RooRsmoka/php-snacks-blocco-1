@@ -7,7 +7,7 @@
 $posts = [
     "26-06-2020" => [
         "author" => "Albert Einstein",
-        "text" => "EUREKA!! E = mc²."
+        "text" => "EUREKA! E = mc²."
     ],
     "15-03-2021" => [
         "author" => "Sherlock Holmes",
@@ -20,7 +20,7 @@ $posts = [
 ];
 
 foreach($posts as $key => $value) {
-    echo "<h3>Data: $key</h3>";
+    echo "<h4>Post del $key</h4>";
     echo "<p>". $value["author"] ."</p>";
     echo "<p>". $value["text"] ."</p>";
 }
