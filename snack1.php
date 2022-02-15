@@ -46,5 +46,3 @@ for ($i = 0; $i < count($matchDay); $i++) {
     echo "<div>". $matchDay[$i]["home"] . " - " . $matchDay[$i]["away"] . " | " . $matchDay[$i]["homeScore"] . " - " . $matchDay[$i]["awayScore"] ."</div>";
 }
 ?>
-
-
