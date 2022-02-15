@@ -18,7 +18,7 @@ $matchDay = [
         "awayScore" => rand(50, 150)
     ],
     [
-        "home" => "Cleveland Calaviers",
+        "home" => "Cleveland Cavaliers",
         "homeScore" => rand(50, 150),
         "away" => "Detroit Pistons",
         "awayScore" => rand(50, 150)
